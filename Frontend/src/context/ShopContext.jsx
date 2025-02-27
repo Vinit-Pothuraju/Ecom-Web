@@ -1,6 +1,6 @@
 import  { createContext } from 'react'
 import { products } from '../assets/assets';
-const ShopContext = createContext();
+export const ShopContext = createContext();
  const ShopContextProvider = (props)=>
  {
 
@@ -19,4 +19,4 @@ const ShopContext = createContext();
   )
  }
 
-export default ShopContext,ShopContextProvider
+export default ShopContextProvider
